@@ -89,7 +89,7 @@ int scoring(int dice1, int dice2, int dice3){
         return 50;
     } else if (sum == 13){
         return 26;
-    } else if (dice1==dice2==dice3){
+    } else if (dice1==dice2 && dice1==dice3 && dice2==dice3){
         return 25;
     } else if (dice1 == 1 && dice2 == 2 && dice3 == 3){
         return 20;
